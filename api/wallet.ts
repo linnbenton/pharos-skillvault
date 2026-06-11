@@ -2,6 +2,8 @@ import express from "express";
 import { createWallet } from "../skills/wallet/createWallet";
 import { signMessage } from "../skills/wallet/signMessage";
 import { getBalance } from "../skills/wallet/getBalance";
+import "./treasury";
+import "./security";
 import dotenv from "dotenv";
 
 dotenv.config();
