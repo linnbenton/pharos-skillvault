@@ -1,0 +1,28 @@
+# Dependency folders
+node_modules/
+jspm_packages/
+web_modules/
+
+# Compiled output
+dist/
+build/
+
+# Environment variables (SANGAT PENTING!)
+.env
+.env.local
+.env.production.local
+.env.development.local
+.env.local.errors
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# IDE / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
