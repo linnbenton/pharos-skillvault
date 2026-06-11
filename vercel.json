@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/wallet/(.*)",
+      "dest": "api/wallet.ts"
+    },
+    {
+      "src": "/treasury/(.*)",
+      "dest": "api/treasury.ts"
+    },
+    {
+      "src": "/security/(.*)",
+      "dest": "api/security.ts"
+    }
+  ]
+}
