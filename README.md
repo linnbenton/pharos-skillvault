@@ -2,7 +2,7 @@
 
 Pharos SkillVault is a production-ready, TypeScript-based **Ecosystem Skill Module** designed specifically for the Pharos Network. It serves as a composable, low-level foundational layer that equips future AI Agents with secure asset management, automated treasury distribution, and proactive on-chain risk simulation.
 
-Built entirely for **Phase 1 (Skill Hackathon)** of the Pharos Skill-to-Agent Dual Cascade Hackathon, this codebase exposes atomic, reusable blockchain functions via a clean REST API layer, ready to be integrated with LLM function-calling workflows.
+<span style="color: gray;">Built entirely for **[Phase 1 (Skill Hackathon)](https://dorahacks.io/hackathon/pharos-phase1/buidl)** of the Pharos Skill-to-Agent Dual Cascade Hackathon, this codebase exposes atomic, reusable blockchain functions via a clean REST API layer, ready to be integrated with LLM function-calling workflows.</span>
 
 ---
 
