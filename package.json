@@ -2,7 +2,7 @@
   "name": "pharos-skillvault",
   "version": "1.0.0",
   "description": "Pharos SkillVault - Web3 Wallet, Treasury, and Security Engine",
-  "main": "api/wallet.ts",
+  "main": "dist/index.js",
   "scripts": {
     "start": "ts-node api/wallet.ts",
     "dev": "ts-node-dev --respawn --transpile-only api/wallet.ts",
